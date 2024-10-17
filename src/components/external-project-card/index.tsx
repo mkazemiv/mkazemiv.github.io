@@ -71,7 +71,7 @@ const ExternalProjectCard = ({
       <a
         className="card shadow-lg compact bg-base-100 cursor-pointer"
         key={index}
-        href={item.link}
+        // href={item.link}
         onClick={(e) => {
           e.preventDefault();
 
