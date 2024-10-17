@@ -348,7 +348,7 @@ const CONFIG = {
       'retro',
       'cyberpunk',
       'valentine',
-      'halloween',
+      'spooky',
       'garden',
       'forest',
       'aqua',
@@ -370,7 +370,7 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
-      'procyon',
+      // 'procyon',
     ],
 
     // Custom theme, applied to `procyon` theme

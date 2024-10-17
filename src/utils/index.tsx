@@ -10,7 +10,7 @@ import {
 } from '../interfaces/sanitized-config';
 
 export const isDarkishTheme = (appliedTheme: string): boolean => {
-  return ['dark', 'halloween', 'forest', 'black', 'luxury', 'dracula'].includes(
+  return ['dark', 'spooky', 'forest', 'black', 'luxury', 'dracula'].includes(
     appliedTheme,
   );
 };

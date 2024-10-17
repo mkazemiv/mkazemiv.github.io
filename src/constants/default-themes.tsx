@@ -9,7 +9,7 @@ export const DEFAULT_THEMES = [
   'retro',
   'cyberpunk',
   'valentine',
-  'halloween',
+  'spooky',
   'garden',
   'forest',
   'aqua',

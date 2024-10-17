@@ -83,8 +83,7 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -92,76 +91,47 @@ const CONFIG = {
     'MySQL',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'SQL',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'C++',
+    'Flask',
+    'MATLAB'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+      company: 'Memorialized LLC',
+      position: 'Full-Stack Developer',
+      from: 'Auguest 2023',
+      to: 'December 2023',
+      companyLink: 'https://www.memorializedme.com/',
+    }
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Microsoft Certified',
+      body: 'Azure AI Fundamentals (AI-900)',
+      year: 'April 2024',
+      link: 'https://learn.microsoft.com/api/credentials/share/en-us/MohammadAliK-3428/1B87695F2128EA33?sharingId=583C4D7DE7D466C'
     },
   ],
   educations: [
     {
       institution: 'Institution Name',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      from: '2021',
+      to: '2023',
     },
     {
       institution: 'Institution Name',
       degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      from: '2018',
+      to: '2021',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
+  blog: {},
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -171,7 +141,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'night',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -189,36 +159,36 @@ const CONFIG = {
       'light',
       'dark',
       'cupcake',
-      'bumblebee',
+      // 'bumblebee',
       'emerald',
-      'corporate',
+      // 'corporate',
       'synthwave',
       'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
+      // 'cyberpunk',
+      // 'valentine',
+      'spooky',
       'garden',
       'forest',
       'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
+      // 'lofi',
+      // 'pastel',
+      // 'fantasy',
+      // 'wireframe',
       'black',
       'luxury',
-      'dracula',
+      // 'dracula',
       'cmyk',
       'autumn',
       'business',
-      'acid',
-      'lemonade',
+      // 'acid',
+      // 'lemonade',
       'night',
       'coffee',
       'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'procyon',
+      // 'dim',
+      // 'nord',
+      // 'sunset',
+      // 'procyon',
     ],
 
     // Custom theme, applied to `procyon` theme
@@ -238,7 +208,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> and 🫶`,
 
   enablePWA: true,
 };
