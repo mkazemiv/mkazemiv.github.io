@@ -97,7 +97,7 @@ const CONFIG = {
     email: '',
   },
   resume: {
-    fileUrl: // TODO
+    fileUrl: // currently only allows viewing in new tab
       'https://nbviewer.org/github/mkazemiv/mkazemiv.github.io/blob/main/mkazemiv_resume_swe.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
