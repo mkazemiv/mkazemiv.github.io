@@ -54,7 +54,7 @@ const CONFIG = {
             `Collaborated with a team of classmates to build an Apache web app that will be used by the university’s computer science department to manage course office hours.`,
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
+          link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png',
         },
       ],
     },
