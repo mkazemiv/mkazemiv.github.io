@@ -98,7 +98,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl: // TODO
-      'https://github.com/mkazemiv/mkazemiv.github.io/blob/main/mkazemiv_resume_swe.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://nbviewer.org/github/mkazemiv/mkazemiv.github.io/blob/main/mkazemiv_resume_swe.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
