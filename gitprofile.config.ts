@@ -53,7 +53,7 @@ const CONFIG = {
           description:
             `I spearheaded the development of an Android app that uses Google Firebase’s Authentication and Realtime Database services. The app allows users to log their food intake and calories via vocal input, view progress toward a calorie goal, while boasting unique user registration and password validation.`,
           imageUrl:
-            'https://github.com/jleung-14/Food-App/blob/main/FoodTracker/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png',
+            'https://raw.githubusercontent.com/jleung-14/Food-App/refs/heads/main/FoodTracker/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png',
           link: '',
         },
         {
