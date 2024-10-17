@@ -32,12 +32,6 @@ const CONFIG = {
       header: 'Other Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        /*
-        SplitSmart Kotlin, ML Kit, ChatGPT, Jetpack Compose, Figma, Azure DevOps Auguest 2024 - Present
-• Leading the Android side of development for a smart bill-splitting solution that uses on-device OCR and feeds that data
-to AI for processing and accurately computing each person’s share.
-
-        */
         {
           title: 'SplitSmart',
           description:
@@ -155,7 +149,6 @@ to AI for processing and accurately computing each person’s share.
     },
   ],
   publications: [],
-  // Display articles from your medium or dev account. (Optional)
   blog: {},
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
