@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -29,11 +29,11 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Other Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Scheduler',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
@@ -52,12 +52,12 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: `Mohammad Ali's Portfolio\``,
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'mohammad-a-kazemi',
     twitter: '',
     mastodon: '',
     researchGate: '',
@@ -85,17 +85,18 @@ const CONFIG = {
   skills: [
     'Python',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Kotlin',
+    'Java',
+    'Jetpack Compose',
     'Git',
-    'SQL',
+    'Node.js',
+    'MongoDB',
     'HTML',
     'CSS',
-    'C++',
+    'Supabase',
     'Flask',
+    'Figma',
+    'Azure DevOps',
     'MATLAB'
   ],
   experiences: [
@@ -158,28 +159,28 @@ const CONFIG = {
     themes: [
       'light',
       'dark',
-      'cupcake',
+      // 'cupcake',
       'emerald',
       'synthwave',
       'retro',
       // 'valentine',
       'spooky',
-      'garden',
+      // 'garden',
       'forest',
       'aqua',
       // 'lofi',
       // 'pastel',
       // 'fantasy',
       // 'wireframe',
-      'black',
+      // 'black',
       'luxury',
       // 'dracula',
-      'cmyk',
+      // 'cmyk',
       'autumn',
-      'business',
+      // 'business',
       // 'acid',
       // 'lemonade',
-      'night',
+      // 'night',
       'coffee',
       'winter',
       // 'dim',
