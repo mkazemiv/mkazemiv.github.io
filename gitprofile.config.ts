@@ -32,13 +32,27 @@ const CONFIG = {
       header: 'Other Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
+        /*
+        SplitSmart Kotlin, ML Kit, ChatGPT, Jetpack Compose, Figma, Azure DevOps Auguest 2024 - Present
+• Leading the Android side of development for a smart bill-splitting solution that uses on-device OCR and feeds that data
+to AI for processing and accurately computing each person’s share.
+
+        */
+        {
+          title: 'SplitSmart',
+          description:
+            `Efficient bill-splitting solution for Android that uses ML Kit's on-device OCR and feeds that data to ChatGPT for processing and accurately computing each person’s share of the bill.`,
+          imageUrl:
+            'https://raw.githubusercontent.com/mkazemiv/mkazemiv.github.io/12fbb708cb474e4e29ba3f86307cbc8865960882/splitsmartLogo.png',
+          link: '',
+        },
         {
           title: 'Sosha Salaat',
           description:
             `Developing a prayer companion app for Android; features include geolocation, customizable alarms and notifications, and daily quotes. Using Figma for wireframes, Asana for project management, GitHub/Sourcetree for version control, and Firebase as our database.`,
           imageUrl:
             'https://avatars.githubusercontent.com/u/128259165?s=200&v=4',
-          // link: '',
+          link: '',
         },
         {
           title: 'Food Tracker',
@@ -89,7 +103,7 @@ const CONFIG = {
     email: '',
   },
   resume: {
-    fileUrl:
+    fileUrl: // TODO
       'https://github.com/mkazemiv/mkazemiv.github.io/blob/main/mkazemiv_resume_swe.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
