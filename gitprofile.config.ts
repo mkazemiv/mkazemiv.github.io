@@ -33,20 +33,28 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Scheduler',
+          title: 'Sosha Salaat',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            `Developing a prayer companion app for Android; features include geolocation, customizable alarms and notifications, and daily quotes. Using Figma for wireframes, Asana for project management, GitHub/Sourcetree for version control, and Firebase as our database.`,
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://avatars.githubusercontent.com/u/128259165?s=200&v=4',
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: 'Food Tracker',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            `I spearheaded the development of an Android app that uses Google Firebase’s Authentication and Realtime Database services. The app allows users to log their food intake and calories via vocal input, view progress toward a calorie goal, while boasting unique user registration and password validation.`,
+          imageUrl:
+            'https://github.com/jleung-14/Food-App/blob/main/FoodTracker/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png',
+          link: '',
+        },
+        {
+          title: 'Scheduler',
+          description:
+            `Collaborated with a team of classmates to build an Apache web app that will be used by the university’s computer science department to manage course office hours.`,
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: '',
         },
       ],
     },
@@ -80,7 +88,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/mkazemiv/mkazemiv.github.io/blob/main/mkazemiv_resume_swe.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
