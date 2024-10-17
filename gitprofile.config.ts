@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['mkazemiv/mkazemiv.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -60,7 +60,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: `Mohammad Ali's Portfolio\``,
+    title: `Mohammad Ali's Portfolio`,
     description: '',
     imageURL: '',
   },
@@ -105,7 +105,7 @@ const CONFIG = {
     'Flask',
     'Figma',
     'Azure DevOps',
-    'MATLAB'
+    // 'MATLAB'
   ],
   experiences: [
     {
@@ -158,7 +158,7 @@ const CONFIG = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
