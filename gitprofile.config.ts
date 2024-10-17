@@ -38,7 +38,7 @@ const CONFIG = {
             `Developing a prayer companion app for Android; features include geolocation, customizable alarms and notifications, and daily quotes. Using Figma for wireframes, Asana for project management, GitHub/Sourcetree for version control, and Firebase as our database.`,
           imageUrl:
             'https://avatars.githubusercontent.com/u/128259165?s=200&v=4',
-          link: '',
+          // link: '',
         },
         {
           title: 'Food Tracker',
