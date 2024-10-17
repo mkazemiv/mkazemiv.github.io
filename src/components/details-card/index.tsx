@@ -11,6 +11,8 @@ import {
   FaDev,
   FaFacebook,
   FaGlobe,
+  FaGoogle,
+  FaMicrosoft,
   FaLinkedin,
   FaMastodon,
   FaReddit,
@@ -208,6 +210,22 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="ResearchGate:"
                   value={social.researchGate}
                   link={`https://www.researchgate.net/profile/${social.researchGate}`}
+                />
+              )}
+              {social?.gdev && (
+                <ListItem
+                  icon={<FaGoogle />}
+                  title="Google Developer Program:"
+                  value={social.gdev}
+                  link={`https://g.dev/${social.gdev}`}
+                />
+              )}
+              {social?.mslearn && (
+                <ListItem
+                  icon={<FaMicrosoft />}
+                  title="Microsoft Learn:"
+                  value={social.mslearn}
+                  link={`https://learn.microsoft.com/en-us/users/${social.mslearn}/`}
                 />
               )}
               {social?.twitter && (

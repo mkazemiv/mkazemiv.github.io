@@ -66,6 +66,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'mohammad-a-kazemi',
+    gdev: 'mkazemiv',
     twitter: '',
     mastodon: '',
     researchGate: '',

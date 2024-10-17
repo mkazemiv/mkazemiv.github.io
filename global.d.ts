@@ -118,6 +118,16 @@ interface Social {
   twitter?: string;
 
   /**
+   * Google Developer Program
+   */
+  gdev?: string;
+
+  /**
+   * Microsoft Learn
+   */
+  mslearn?: string;
+
+  /**
    * Mastodon
    */
   mastodon?: string;
