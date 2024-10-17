@@ -204,6 +204,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 value={github.username}
                 link={`https://github.com/${github.username}`}
               />
+              {social?.linkedin && (
+                <ListItem
+                  icon={<FaLinkedin />}
+                  title="LinkedIn:"
+                  value={social.linkedin}
+                  link={`https://www.linkedin.com/in/${social.linkedin}`}
+                />
+              )}
               {social?.researchGate && (
                 <ListItem
                   icon={<SiResearchgate />}
@@ -242,14 +250,6 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="Mastodon:"
                   value={getFormattedMastodonValue(social.mastodon, false)}
                   link={getFormattedMastodonValue(social.mastodon, true)}
-                />
-              )}
-              {social?.linkedin && (
-                <ListItem
-                  icon={<FaLinkedin />}
-                  title="LinkedIn:"
-                  value={social.linkedin}
-                  link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
               )}
               {social?.dribbble && (
