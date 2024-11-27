@@ -98,7 +98,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl: // currently only allows viewing in new tab
-      'https://nbviewer.org/github/mkazemiv/mkazemiv.github.io/blob/main/mkazemiv_resume_swe.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1EBw9viHcOToU8a9b0VHOchZRmrawyhkW/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
