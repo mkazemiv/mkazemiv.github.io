@@ -132,6 +132,11 @@ const CONFIG = {
       body: 'Azure AI Fundamentals (AI-900)',
       year: 'April 2024',
       link: 'https://learn.microsoft.com/api/credentials/share/en-us/MohammadAliK-3428/1B87695F2128EA33?sharingId=583C4D7DE7D466C'
+    }, {
+      name: 'AWS Training and Certification',
+      body: 'AWS Technical Essentials',
+      year: 'August 2023',
+      link: 'https://drive.google.com/file/d/1yyEIy1a4scmb0I5eusnJMixQba7FHUo3/view?usp=sharing'
     },
   ],
   educations: [
