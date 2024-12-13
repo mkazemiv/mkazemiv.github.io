@@ -115,7 +115,7 @@ const CONFIG = {
     'Flask',
     'Figma',
     'Azure DevOps',
-    // 'MATLAB'
+    'Firebase'
   ],
   experiences: [
     {
