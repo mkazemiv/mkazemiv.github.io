@@ -128,13 +128,13 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Microsoft Certified',
-      body: 'Azure AI Fundamentals (AI-900)',
+      name: 'Azure AI Fundamentals (AI-900)',
+      body: 'Microsoft Certified',
       year: 'April 2024',
       link: 'https://learn.microsoft.com/api/credentials/share/en-us/mkazemiv/1B87695F2128EA33?sharingId=583C4D7DE7D466C'
     }, {
-      name: 'AWS Training and Certification',
-      body: 'AWS Technical Essentials',
+      name: 'AWS Technical Essentials',
+      body: 'AWS Training and Certification',
       year: 'August 2023',
       link: 'https://drive.google.com/file/d/1yyEIy1a4scmb0I5eusnJMixQba7FHUo3/view?usp=sharing'
     },
