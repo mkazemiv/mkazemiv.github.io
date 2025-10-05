@@ -98,7 +98,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl: // currently only allows viewing in new tab
-      'https://drive.google.com/file/d/1EBw9viHcOToU8a9b0VHOchZRmrawyhkW/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1Hfwkdq3_eOz1rV7lW4a1uwrz1erK_DFI/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
