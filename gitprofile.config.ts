@@ -143,14 +143,14 @@ const CONFIG = {
     {
       institution: 'University of Maryland, College Park',
       degree: 'B.S. in Computer Science, Minor in Technology Entrpreneurship & Corporate Innovation',
-      from: '2021',
-      to: '2023',
+      // from: '2021',
+      // to: '2023',
     },
     {
       institution: 'Montgomery College, Rockville',
       degree: 'A.A. in Computer Science and Technologies',
-      from: '2018',
-      to: '2021',
+      // from: '2018',
+      // to: '2021',
     },
   ],
   publications: [],
