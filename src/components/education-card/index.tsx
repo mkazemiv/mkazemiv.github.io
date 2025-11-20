@@ -3,11 +3,11 @@ import { SanitizedEducation } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
 
 const ListItem = ({
-  time,
+  // time,
   degree,
   institution,
 }: {
-  time: React.ReactNode;
+  // time?: React.ReactNode;
   degree?: React.ReactNode;
   institution?: React.ReactNode;
 }) => (
@@ -16,7 +16,7 @@ const ListItem = ({
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
       style={{ left: '-4.5px' }}
     ></div>
-    <div className="my-0.5 text-xs">{time}</div>
+    {/* <div className="my-0.5 text-xs">{time}</div> */}
     <h3 className="font-semibold">{degree}</h3>
     <div className="mb-4 font-normal">{institution}</div>
   </li>
@@ -35,10 +35,10 @@ const EducationCard = ({
       array.push(
         <ListItem
           key={index}
-          time={skeleton({
-            widthCls: 'w-5/12',
-            heightCls: 'h-4',
-          })}
+          // time={skeleton({
+          //   widthCls: 'w-5/12',
+          //   heightCls: 'h-4',
+          // })}
           degree={skeleton({
             widthCls: 'w-6/12',
             heightCls: 'h-4',
@@ -73,7 +73,7 @@ const EducationCard = ({
                 {educations.map((item, _) => (
                   <ListItem
                     // key={index}
-                    // time={`${item.from} - ${item.to}`}
+                    // time={}
                     degree={item.degree}
                     institution={item.institution}
                   />

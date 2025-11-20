@@ -89,8 +89,8 @@ export interface SanitizedCertification {
 export interface SanitizedEducation {
   institution?: string;
   degree?: string;
-  from: string;
-  to: string;
+  // from: string;
+  // to: string;
 }
 
 export interface SanitizedPublication {
