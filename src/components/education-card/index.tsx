@@ -70,10 +70,10 @@ const EducationCard = ({
               renderSkeleton()
             ) : (
               <>
-                {educations.map((item, index) => (
+                {educations.map((item, _) => (
                   <ListItem
-                    key={index}
-                    time={`${item.from} - ${item.to}`}
+                    // key={index}
+                    // time={`${item.from} - ${item.to}`}
                     degree={item.degree}
                     institution={item.institution}
                   />
